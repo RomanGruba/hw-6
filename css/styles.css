@@ -187,6 +187,7 @@ input[type="radio"].visually-hidden {
 .team-list {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 0;
     padding: 0 0 84px 0;
@@ -386,5 +387,4 @@ input::placeholder {
     font-weight: 700;
     color: #ffffff;
     border: none;
-    
 }
