@@ -190,7 +190,6 @@ input[type="radio"].visually-hidden {
     justify-content: space-between;
     margin: 0;
     padding: 0 0 84px 0;
-    /* padding-bottom: 84px; */
 }
 
 .team-list-item {
@@ -210,7 +209,7 @@ input[type="radio"].visually-hidden {
 .team-list-item:hover .team-member-photo {
     top: -10px;
     left: -10px;
-}
+ }
 
 .overlay {
     display: flex;
@@ -226,6 +225,7 @@ input[type="radio"].visually-hidden {
     left: -10px;
     opacity: 0;
     z-index: 3;
+    transition: all 0.2s linear;
 }
 
 .background {
@@ -244,6 +244,7 @@ input[type="radio"].visually-hidden {
 .team-member-photo {
     position: absolute;
     z-index: 2;
+    transition: all 5s linear;
 }
 
 .socials {
@@ -255,14 +256,15 @@ input[type="radio"].visually-hidden {
 
 .socials-item {
     display: flex;
-    background-color: #fce38a;
-    margin-right: 2px;
+     margin-right: 2px;
 }
 
 .socials-item-link {
     width: 56px;
     height: 56px;
     font-size: 0;
+    background-color: #fce38a;
+    transition: background-color 0.2s linear;
 }
 
 .socials-item:nth-last-of-type(1) {
