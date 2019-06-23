@@ -164,6 +164,10 @@ input[type="radio"].visually-hidden {
     padding: 0 0 0 92px;
 }
 
+/* .section-team {
+    background-color: orange;
+} */
+
 .section-team-title {
     margin: 0;
     padding: 0;
@@ -173,7 +177,7 @@ input[type="radio"].visually-hidden {
     text-align: center;
     max-width: 980px;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 0 90px 0;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     line-height: 24px;
@@ -182,10 +186,15 @@ input[type="radio"].visually-hidden {
 
 .team-list {
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 0 84px 0;
+    /* padding-bottom: 84px; */
 }
 
 .team-list-item {
-    position: absolute;
+    position: relative;
     width: 380px;
     height: auto;
     margin: 0 auto;
@@ -308,4 +317,72 @@ input[type="radio"].visually-hidden {
     font-weight: 24px;
     color: #999999;
     text-align: center;
+}
+
+.footer {
+    border-top: 1px solid rgb(229, 229, 229);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 62px;
+}
+
+.design-notice {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0;
+}
+
+.design {
+    color: #333333;
+}
+
+.designer-link {
+    color: #f38181;
+    text-decoration: none;
+}
+
+.subscription {
+    display: flex;
+}
+
+.email-form {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(231, 231, 231);
+    background-color: rgb(255, 255, 255);
+    width: 234px;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-style: italic;
+    color: #cccccc;
+    margin: 0;
+    padding: 0 0 0 12px;
+}
+
+.subscribe-button {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(149, 225, 211);
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    border: none;
+    
 }
