@@ -78,7 +78,7 @@ input[type="radio"].visually-hidden {
     padding: 0;
     display: flex;
     flex-direction: column;
-    margin-top: 130px;
+    padding-top: 130px;
 }
 
 .section-subtitle-first {
@@ -109,9 +109,12 @@ input[type="radio"].visually-hidden {
     background-color: #f38181;
     margin: 0 auto;
     margin-top: 42px;
-    margin-bottom: 64px;
+    /* margin-bottom: 64px; */
 }
 
+.section-title {
+    margin-bottom: 64px;
+}
 
 
 .services-list {
@@ -143,6 +146,48 @@ input[type="radio"].visually-hidden {
     left: 20px;
 }
 
+.services-list-item:nth-of-type(1)::before {
+    content: url("../img/services-icons/1.png");
+    position: absolute;
+    top: 4px;
+    left: 20px;
+}
+
+.services-list-item:nth-of-type(2)::before {
+    content: url("../img/services-icons/2.png");
+    position: absolute;
+    top: 4px;
+    left: 20px;
+}
+
+.services-list-item:nth-of-type(3)::before {
+    content: url("../img/services-icons/3.png");
+    position: absolute;
+    top: 4px;
+    left: 20px;
+}
+
+.services-list-item:nth-of-type(4)::before {
+    content: url("../img/services-icons/4.png");
+    position: absolute;
+    top: 4px;
+    left: 20px;
+}
+
+.services-list-item:nth-of-type(5)::before {
+    content: url("../img/services-icons/5.png");
+    position: absolute;
+    top: 4px;
+    left: 20px;
+}
+
+.services-list-item:nth-of-type(6)::before {
+    content: url("../img/services-icons/6.png");
+    position: absolute;
+    top: 4px;
+    left: 20px;
+}
+
 .item-title {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -167,7 +212,7 @@ input[type="radio"].visually-hidden {
 } */
 
 .section-team-title {
-    margin: 0;
+    margin: 0 0 50px 0;
     padding: 0;
 }
 
